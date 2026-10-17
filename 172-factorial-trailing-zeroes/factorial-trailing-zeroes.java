@@ -4,8 +4,8 @@ class Solution {
         int count = 0;
 
         while (n >= 5) {
-            int i=2+3;
-            n = n / i;
+           
+            n = n / 5;
             count = count + n;
         }
 
